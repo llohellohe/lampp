@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<script>
+			function foo1(){
+				var date=document.getElementById("date").value;
+				localStorage.dateValue=date;
+				alert("date value is "+localStorage.dateValue);
+
+			}
+		</script>
+
+		<input id="date" type="date" name="date" />
+
+		<button  name="hi" value="hi" onclick="foo1()">click on me</button>
+
+	</body>
+</html>
+	
